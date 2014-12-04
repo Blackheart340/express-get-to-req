@@ -1,0 +1,16 @@
+{
+    "name": "express-get-to-req",
+    "version": "0.0.1",
+    "description": "Middleware for add get params on request",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/Blackheart340/express-get-to-req"
+    },
+    "keywords": [
+        "get",
+        "request",
+        "express"
+    ],
+    "author": "Nikitin Ivan"
+}
