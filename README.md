@@ -16,7 +16,7 @@ app.use(require('express-get-to-req')(array|string));
 ```javascript
 var app = express();
 
-app.use(require(''express-get-to-req'')([ 'name', 'login' ]));
+app.use(require('express-get-to-req')([ 'name', 'login' ]));
 
 app.get('/', function (req, res) {
     res.send('Hello ' + req.name + '. Your Login:' + req.login)
