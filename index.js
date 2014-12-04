@@ -1,12 +1,16 @@
 'use strict';
 
-var getToReq = function(options){
+var getToReq = function(availableParams){
 
-    var availableParams = options.availableParams;
+    availableParams = availableParams || [];
+
+    if(typeof availableParams === 'string'){
+        availableParams = [ availableParams ];
+    }
 
     return function(req, res, next){
 
-        availableParams.map(function(param, n){
+        availableParams.forEach(function(param, n){
             var val = req.param(param);
 
             if(!!val){
