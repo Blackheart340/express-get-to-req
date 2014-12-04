@@ -12,5 +12,12 @@
         "request",
         "express"
     ],
+    "devDependencies": {
+        "express": "3",
+        "jade": "*",
+        "should": "*",
+        "mocha": "*",
+        "supertest": "*"
+    },
     "author": "Nikitin Ivan"
 }
